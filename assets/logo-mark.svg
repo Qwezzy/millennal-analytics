@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 88" fill="none" role="img" aria-label="Millennal Analytics">
+  <defs>
+    <linearGradient id="barA" x1="18" y1="78" x2="18" y2="28" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1A66C8"/>
+      <stop offset="1" stop-color="#0B3A7A"/>
+    </linearGradient>
+    <linearGradient id="barB" x1="34" y1="78" x2="34" y2="16" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2E86DE"/>
+      <stop offset="1" stop-color="#1457B0"/>
+    </linearGradient>
+    <linearGradient id="barC" x1="50" y1="78" x2="50" y2="8" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4AA3F0"/>
+      <stop offset="1" stop-color="#1B6FD4"/>
+    </linearGradient>
+    <linearGradient id="mGrad" x1="28" y1="72" x2="68" y2="18" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6B429"/>
+      <stop offset="1" stop-color="#E67A12"/>
+    </linearGradient>
+  </defs>
+  <path d="M14 72h10V36c0-2.2-1.8-4-4-4h-2c-2.2 0-4 1.8-4 4v36Z" fill="url(#barA)"/>
+  <path d="M30 72h10V22c0-2.2-1.8-4-4-4h-2c-2.2 0-4 1.8-4 4v50Z" fill="url(#barB)"/>
+  <path d="M46 72h10V12c0-2.2-1.8-4-4-4h-2c-2.2 0-4 1.8-4 4v60Z" fill="url(#barC)"/>
+  <path d="M24 70 L40 28 L50 48 L62 18 L74 18 L54 62 L44 42 L32 70 Z" fill="url(#mGrad)"/>
+  <circle cx="10" cy="58" r="3.2" fill="#0D2B55"/>
+  <circle cx="22" cy="48" r="3.2" fill="#F39C12"/>
+  <circle cx="8" cy="40" r="3.2" fill="#F39C12"/>
+  <circle cx="20" cy="30" r="3.2" fill="#0D2B55"/>
+  <circle cx="6" cy="22" r="3.2" fill="#0D2B55"/>
+  <path d="M10 58 L22 48 L8 40 L20 30 L6 22 L10 58 L8 40 M22 48 L20 30" stroke="#163A66" stroke-width="1.6" stroke-linecap="round"/>
+</svg>
