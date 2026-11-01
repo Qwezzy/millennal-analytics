@@ -28,8 +28,9 @@
     .achievements { display: grid; gap: 12px; }
     .ach { background: #fff; border-radius: 14px; padding: 16px 18px; display: flex; gap: 14px; align-items: flex-start; }
     .ach-year { background: var(--navy-800); color: #fff; font-weight: 700; font-size: 13px; padding: 4px 10px; border-radius: 999px; white-space: nowrap; }
-    .video-placeholder { background: #eef3f9; border: 2px dashed #c5d4e8; border-radius: 16px; padding: 40px; text-align: center; color: var(--muted); }
-    @media (max-width: 800px) { .player-hero-grid { grid-template-columns: 1fr; justify-items: center; text-align: center; } .stat-pills { justify-content: center; } }
+    .video-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .video-grid video { width: 100%; border-radius: 14px; background: #000; }
+    @media (max-width: 800px) { .player-hero-grid { grid-template-columns: 1fr; justify-items: center; text-align: center; } .stat-pills { justify-content: center; } .video-grid { grid-template-columns: 1fr; } }
   </style>
 </head>
 <body>
@@ -50,7 +51,7 @@
 
   <section class="player-hero" id="profile">
     <div class="wrap player-hero-grid">
-      <img class="player-photo" src="assets/players/rabie/trails.jpg" alt="Rabie J Malgas" />
+      <img class="player-photo" src="assets/players/rabie/Trails Pic.jpg" alt="Rabie J Malgas" />
       <div>
         <div class="player-badge">Available · U15 Center Back</div>
         <h1 class="player-name">Rabie J Malgas</h1>
@@ -131,14 +132,17 @@
       <div class="section-head">
         <div class="kicker">Gallery</div>
         <h2>Action, awards and team moments</h2>
-        <p class="lede">Photos from training, championships, provincial camps and school awards. More images and full video highlights available on request.</p>
+        <p class="lede">Photos from training, championships, provincial camps and school awards.</p>
       </div>
       <div class="gallery">
-        <img src="assets/players/rabie/trails.jpg" alt="Training / trails" />
-        <img src="assets/players/rabie/championship.jpg" alt="Championship 2025" />
-        <img src="assets/players/rabie/future-cb.jpg" alt="Future center back" />
+        <img src="assets/players/rabie/Trails Pic.jpg" alt="Training / trails" />
+        <img src="assets/players/rabie/Afcon 2025/future center back.png" alt="Future center back" />
+        <img src="assets/players/rabie/Dream Team/Champioship 2025.png" alt="Championship 2025" />
+        <img src="assets/players/rabie/Awarded Awrads/Best Under 17 player 2026.jpg" alt="Best Under 17 player" />
+        <img src="assets/players/rabie/Awarded Awrads/Under 15 School player of the year.jpg" alt="Under 15 award" />
+        <img src="assets/players/rabie/Afcon 2025/IMG-20260803-WA0140.jpg" alt="Action" />
+        <img src="assets/players/rabie/Provincial Western Cape Team/IMG-20260712-WA0083.jpg" alt="Western Cape team" />
       </div>
-      <p style="margin-top:16px;color:var(--muted);font-size:14px;">Optimized photos are ready. Add the files trails.jpg, championship.jpg and future-cb.jpg to the assets/players/rabie/ folder in the GitHub repo to display them here.</p>
     </div>
   </section>
 
@@ -147,11 +151,17 @@
       <div class="section-head">
         <div class="kicker">Video Highlights</div>
         <h2>Match and training footage</h2>
-        <p class="lede">Video clips of Rabie in action will be added here. Contact us for full highlight reels or to arrange a viewing.</p>
+        <p class="lede">Clips of Rabie in action. Contact us for full highlight reels or to arrange a viewing.</p>
       </div>
-      <div class="video-placeholder">
-        <p><strong>Video highlights coming soon</strong></p>
-        <p style="margin-top:8px">Match footage, training sessions and positional clips will be embedded here for scouts.</p>
+      <div class="video-grid">
+        <video controls preload="metadata" poster="assets/players/rabie/Trails Pic.jpg">
+          <source src="assets/players/rabie/VID-20260301-WA0056.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <video controls preload="metadata">
+          <source src="assets/players/rabie/VID-20260917-WA0003.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </div>
     </div>
   </section>
